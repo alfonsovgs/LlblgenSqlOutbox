@@ -1,0 +1,471 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!--LLBLGen Pro v5.5 project file. Do not manually edit this file. Incorrect references could lead to an unloadable project file.-->
+<Project Version="5.5" TargetFrameworkName="LLBLGen Pro Runtime Framework" UseLegacyDefaults="false">
+  <Properties>
+    <Abbreviations />
+    <Property Name="AdditionalTaskPerformerFolder" Value="" />
+    <Property Name="AdditionalTasksFolder" Value="" />
+    <Property Name="AdditionalTemplatesFolder" Value="" />
+    <Property Name="AdditionalTypeConverterFolder" Value="" />
+    <Property Name="AddNewElementsAfterRefresh_v5" Value="false" />
+    <Property Name="AddNewElementsAfterRelationalModelDataSync_v5" Value="false" />
+    <Property Name="AddNewFieldsAfterRefresh_v5" Value="true" />
+    <Property Name="AddNewFieldsAfterRelationalModelDataSync_v5" Value="true" />
+    <Property Name="AddNewViewsAsEntitiesAfterRefresh_v5" Value="false" />
+    <Property Name="AddNewViewsAsEntitiesAfterRelationalModelDataSync_v5" Value="false" />
+    <Property Name="AutoAddManyToManyRelationships" Value="false" />
+    <Property Name="AutoAssignSequencesToIntegerPks" Value="true" />
+    <Property Name="AutoAssignTypeConverterToFieldMapping" Value="true" />
+    <Property Name="ConnectionStringKeyNamePattern" Value="ConnectionString.{$ProviderName}" />
+    <Property Name="DefaultDeleteRuleAction" Value="1" />
+    <Property Name="DefaultUpdateRuleAction" Value="0" />
+    <Property Name="EncodingToUse" Value="0" />
+    <Property Name="EntityActionCombinationDefaultForTable" Value="0" />
+    <Property Name="EntityActionCombinationDefaultForView" Value="4" />
+    <Property Name="EntityFieldNameStripPattern" Value="{}{}" />
+    <Property Name="EntityNameStripPattern" Value="{tbl_}{}" />
+    <Property Name="ExcludableOrphanedElementDetectedAction" Value="3" />
+    <Property Name="FailCodeGenerationOnWriteError" Value="false" />
+    <Property Name="FieldMappedOntoRelatedFieldPattern" Value="{$RelatedFieldName}" />
+    <Property Name="FkFieldsAreNamedAfterTargetField" Value="true" />
+    <Property Name="ForeignKeyConstraintPattern" Value="FK_{$Guid}" />
+    <Property Name="ForeignKeyFieldPattern" Value="{$NavigatorName}{$RelatedFieldName}" />
+    <Property Name="GroupUsage" Value="0" />
+    <Property Name="IdentifyingFieldsFollowDBPrimaryKeyConstraints_v5" Value="true" />
+    <Property Name="InsertUnderscoreAtWordBreakCaseInsensitiveDBs" Value="false" />
+    <Property Name="InsertUnderscoreAtWordBreakCaseSensitiveDBs" Value="false" />
+    <Property Name="LengthPrecisionScaleFollowDBLengthPrecisionScale_v5" Value="true" />
+    <Property Name="MakeElementNamePascalCasing" Value="true" />
+    <Property Name="NavigatorMappedOntoManyToManyPattern" Value="{$EndEntityName}CollectionVia{$IntermediateEntityName$S}" />
+    <Property Name="NavigatorMappedOntoOneManyToOnePattern" Value="{$EndEntityName$S}" />
+    <Property Name="NavigatorMappedOntoOneToManyPattern" Value="{$EndEntityName$P}" />
+    <Property Name="NonExcludableOrphanedElementDetectedAction" Value="3" />
+    <Property Name="PreferDecimalOverCurrencyTypes" Value="true" />
+    <Property Name="PreferNaturalCharacterTypes" Value="true" />
+    <Property Name="PreferSystemSequencesOverSchemaSequencesIfApplicable" Value="true" />
+    <Property Name="PreferVariableLengthTypes" Value="true" />
+    <Property Name="PrimaryKeyConstraintPattern" Value="PK_{$Guid}" />
+    <Property Name="ProjectCreator" Value="vgs" />
+    <Property Name="ProjectName" Value="NsbSamplesSqlOutbox" />
+    <Property Name="ReflectNullabilityOfElementFieldInTargetField_v5" Value="false" />
+    <Property Name="ReflectTypeOfElementFieldInTargetField_v5" Value="true" />
+    <Property Name="RelationalModelDataElementNameCasingCaseInsensitiveDBs" Value="3" />
+    <Property Name="RelationalModelDataElementNameCasingCaseSensitiveDBs" Value="3" />
+    <Property Name="RelationshipsFollowDBForeignKeyConstraints_v5" Value="true" />
+    <Property Name="RemoveUnderscoresFromElementName" Value="true" />
+    <Property Name="RemoveUnmappedElementsAfterRefresh_v5" Value="false" />
+    <Property Name="RemoveUnmappedElementsAfterRelationalModelDataSync_v5" Value="false" />
+    <Property Name="ResetFieldOrderBasedOnTargetOrderAtRefresh" Value="false" />
+    <Property Name="ResetFieldOrderBasedOnTargetOrderAtRelationalModelDataSync" Value="false" />
+    <Property Name="RetrieveDBCustomProperties" Value="false" />
+    <Property Name="RootNamespace" Value="" />
+    <Property Name="SequenceNameMatchingPattern" Value="SEQ_{$TableName}" />
+    <Property Name="SequencePattern" Value="SEQ_{$EntityName}" />
+    <Property Name="SetGroupNameAfterSchemaName" Value="true" />
+    <Property Name="SetSchemaNameAfterGroupName" Value="true" />
+    <Property Name="SingularizeElementNames" Value="true" />
+    <Property Name="StoredProcNameStripPattern" Value="{pr_, sp_}{}" />
+    <Property Name="StoreTimeLastGeneratedIntoProject" Value="false" />
+    <Property Name="StoreTimeLastSyncIntoProject" Value="true" />
+    <Property Name="SyncMappedElementNamesAfterRefresh_v5" Value="false" />
+    <Property Name="SyncMappedElementNamesAfterRelationalModelDataSync_v5" Value="false" />
+    <Property Name="SyncRelationalModelDataElementNameWithModelElementName_v5" Value="false" />
+    <Property Name="SyncRenamedMappedElementNamesAfterRefresh_v5" Value="false" />
+    <Property Name="SyncRenamedMappedElementNamesAfterRelationalModelDataSync_v5" Value="false" />
+    <Property Name="TableValuedFunctionNameStripPattern" Value="{fn_, pr_, sp_}{}" />
+    <Property Name="TargetPerEntityEdgesRequireBackingFkConstraint" Value="true" />
+    <Property Name="TypedViewFieldNameStripPattern" Value="{}{}" />
+    <Property Name="TypedViewMappedOnResultsetPattern" Value="{$ProcFunctionName}{$ResultsetName}Result" />
+    <Property Name="TypedViewNameStripPattern" Value="{vw_}{}" />
+    <Property Name="UniqueConstraintPattern" Value="UC_{$Guid}" />
+    <Property Name="UniqueConstraintsFollowDBUniqueConstraints_v5" Value="true" />
+    <Property Name="UpdateCustomPropertiesAfterRefresh_v5" Value="false" />
+    <Property Name="UpdateCustomPropertiesAfterRelationalModelDataSync_v5" Value="false" />
+    <Property Name="UseCustomFieldOrderingOnNewElements" Value="false" />
+  </Properties>
+  <TypeShortcuts />
+  <IgnoredWarnings />
+  <SavedSearchQueries />
+  <CodeGenerationCyclePreferences>
+    <OutputType Value="3">
+      <LastUsedPreferences>
+        <DestinationRootFolder Value=".\" />
+        <FrameworkName Value="LLBLGen Pro Runtime Framework" />
+        <LanguageName Value="C#" />
+        <PlatformName Value=".NET 4.5.2" />
+        <PresetName Value="SD.Presets.Adapter.General" />
+        <RootNamespace Value="NsbSamplesSqlOutbox" />
+        <TemplateGroup Value="Adapter" />
+        <TemplateBindings>
+          <Binding Name="SD.TemplateBindings.SharedTemplates.Deprecated" />
+          <Binding Name="SD.TemplateBindings.SharedTemplates.NET45x" />
+          <Binding Name="SD.TemplateBindings.SharedTemplates" />
+          <Binding Name="SD.TemplateBindings.SqlServerSpecific" />
+          <Binding Name="SD.TemplateBindings.General" />
+        </TemplateBindings>
+      </LastUsedPreferences>
+    </OutputType>
+  </CodeGenerationCyclePreferences>
+  <OutputSettingValues>
+    <SettingValues>
+      <SettingValue Name="1:AdapterDbGenericSubFolderName" Value="DatabaseGeneric" Type="18" />
+      <SettingValue Name="1:AdapterDbSpecificNamespaceSuffix" Value="DatabaseSpecific" Type="18" />
+      <SettingValue Name="1:AdapterDbSpecificProjectFileSuffix" Value="DBSpecific" Type="18" />
+      <SettingValue Name="1:AdapterDbSpecificSubFolderName" Value="DatabaseSpecific" Type="18" />
+      <SettingValue Name="1:ConvertNulledReferenceTypesToDefaultValue" Value="true" Type="3" />
+      <SettingValue Name="1:EntityBaseClassNameDefault" Value="CommonEntityBase" Type="18" />
+      <SettingValue Name="1:FieldPropertyIsPublicDefault" Value="true" Type="3" />
+      <SettingValue Name="1:GenerateAsNullableTypeDefault" Value="true" Type="3" />
+      <SettingValue Name="1:GenerateEntityFieldFactory" Value="false" Type="3" />
+      <SettingValue Name="1:GenerateEntityFieldsFactory" Value="false" Type="3" />
+      <SettingValue Name="1:InlineValueTypedFields" Value="true" Type="3" />
+      <SettingValue Name="1:LazyLoadingWithoutResultReturnsNew" Value="false" Type="3" />
+      <SettingValue Name="1:NavigatorPropertyIsPublicDefault" Value="true" Type="3" />
+      <SettingValue Name="1:SupportedActionCombinations" Value="0,1,2,3,4,5,6,7" Type="18" />
+      <SettingValue Name="1:TdlEmitTimeDateInOutputFiles" Value="false" Type="3" />
+      <SettingValue Name="1:TypedListOutputTypeDefault" Value="PocoWithQuerySpecQuery" Type="18" />
+      <SettingValue Name="1:TypedViewOutputTypeDefault" Value="PocoWithQuerySpecQuery" Type="18" />
+    </SettingValues>
+  </OutputSettingValues>
+  <CodeGenerationMetaDataDefaults>
+    <TargetElement Type="256">
+      <Defaults>
+        <Attributes>
+          <Attribute Value="Browsable($false)" />
+        </Attributes>
+      </Defaults>
+    </TargetElement>
+  </CodeGenerationMetaDataDefaults>
+  <EntityModel>
+    <ValueTypeDefinitions />
+    <EntityDefinitions>
+      <EntityDefinition Name="Error" ObjectID="68ec00ea-15de-431f-a9c0-3190617e9eed">
+        <Fields>
+          <Field Name="Body" Type="byte[]" IsOptional="true" MaxLength="2147483647" />
+          <Field Name="CorrelationId" Type="string" IsOptional="true" MaxLength="255" />
+          <Field Name="Expires" Type="datetime" IsOptional="true" />
+          <Field Name="Headers" Type="string" MaxLength="2147483647" />
+          <Field Name="Id" Type="guid" IsPrimaryKey="true" />
+          <Field Name="Recoverable" Type="bool" />
+          <Field Name="ReplyToAddress" Type="string" IsOptional="true" MaxLength="255" />
+          <Field Name="RowVersion" Type="long" IsReadOnly="true" Precision="19" />
+        </Fields>
+      </EntityDefinition>
+      <EntityDefinition Name="OutboxData" GroupName="Receiver" ObjectID="63ad1b7f-68a7-4e51-aa8a-6061afd494fb">
+        <Fields>
+          <Field Name="Dispatched" Type="bool" />
+          <Field Name="DispatchedAt" Type="datetime" IsOptional="true" />
+          <Field Name="MessageId" Type="string" MaxLength="200" IsPrimaryKey="true" />
+          <Field Name="Operations" Type="string" MaxLength="2147483647" />
+          <Field Name="PersistenceVersion" Type="string" MaxLength="23" />
+        </Fields>
+      </EntityDefinition>
+      <EntityDefinition Name="SamplesSqlOutboxReceiver" GroupName="Receiver" ObjectID="69f38bef-df61-409f-896c-7afe4a52fadc">
+        <Fields>
+          <Field Name="Body" Type="byte[]" IsOptional="true" MaxLength="2147483647" />
+          <Field Name="CorrelationId" Type="string" IsOptional="true" MaxLength="255" />
+          <Field Name="Expires" Type="datetime" IsOptional="true" />
+          <Field Name="Headers" Type="string" MaxLength="2147483647" />
+          <Field Name="Id" Type="guid" IsPrimaryKey="true" />
+          <Field Name="Recoverable" Type="bool" />
+          <Field Name="ReplyToAddress" Type="string" IsOptional="true" MaxLength="255" />
+          <Field Name="RowVersion" Type="long" IsReadOnly="true" Precision="19" />
+        </Fields>
+      </EntityDefinition>
+      <EntityDefinition Name="SamplesSqlOutboxReceiverDelayed" GroupName="Receiver" ObjectID="61f153a9-b824-44ff-a190-5bf414a4b9cb">
+        <Fields>
+          <Field Name="Body" Type="byte[]" IsOptional="true" MaxLength="2147483647" />
+          <Field Name="Due" Type="datetime" IsPrimaryKey="true" />
+          <Field Name="Headers" Type="string" MaxLength="2147483647" />
+          <Field Name="RowVersion" Type="long" IsReadOnly="true" Precision="19" />
+        </Fields>
+      </EntityDefinition>
+      <EntityDefinition Name="SubmittedOrder" GroupName="Receiver" ObjectID="770ef3be-ad38-4cfb-87cf-c98ddbf7b8fd">
+        <Fields>
+          <Field Name="Id" Type="guid" IsPrimaryKey="true" />
+          <Field Name="Value" Type="int" Precision="10" />
+        </Fields>
+      </EntityDefinition>
+      <EntityDefinition Name="SubscriptionData" GroupName="Receiver" ObjectID="ec86d7b3-a7a5-4bc9-9824-bf5d0d83ab45">
+        <Fields>
+          <Field Name="Endpoint" Type="string" IsOptional="true" MaxLength="200" />
+          <Field Name="MessageType" Type="string" MaxLength="200" IsPrimaryKey="true" />
+          <Field Name="PersistenceVersion" Type="string" MaxLength="23" />
+          <Field Name="Subscriber" Type="string" MaxLength="200" IsPrimaryKey="true" />
+        </Fields>
+      </EntityDefinition>
+      <EntityDefinition Name="OutboxData1" GroupName="Sender" ObjectID="9e0e4fe1-5c9a-465e-a615-cd05d087ea11">
+        <Fields>
+          <Field Name="Dispatched" Type="bool" />
+          <Field Name="DispatchedAt" Type="datetime" IsOptional="true" />
+          <Field Name="MessageId" Type="string" MaxLength="200" IsPrimaryKey="true" />
+          <Field Name="Operations" Type="string" MaxLength="2147483647" />
+          <Field Name="PersistenceVersion" Type="string" MaxLength="23" />
+        </Fields>
+      </EntityDefinition>
+      <EntityDefinition Name="SamplesSqlOutboxSender" GroupName="Sender" ObjectID="f6d4ecd3-8179-4730-937f-838692159169">
+        <Fields>
+          <Field Name="Body" Type="byte[]" IsOptional="true" MaxLength="2147483647" />
+          <Field Name="CorrelationId" Type="string" IsOptional="true" MaxLength="255" />
+          <Field Name="Expires" Type="datetime" IsOptional="true" />
+          <Field Name="Headers" Type="string" MaxLength="2147483647" />
+          <Field Name="Id" Type="guid" IsPrimaryKey="true" />
+          <Field Name="Recoverable" Type="bool" />
+          <Field Name="ReplyToAddress" Type="string" IsOptional="true" MaxLength="255" />
+          <Field Name="RowVersion" Type="long" IsReadOnly="true" Precision="19" />
+        </Fields>
+      </EntityDefinition>
+      <EntityDefinition Name="SamplesSqlOutboxSenderDelayed" GroupName="Sender" ObjectID="81f43427-53db-4259-adbe-d903ec54170f">
+        <Fields>
+          <Field Name="Body" Type="byte[]" IsOptional="true" MaxLength="2147483647" />
+          <Field Name="Due" Type="datetime" IsPrimaryKey="true" />
+          <Field Name="Headers" Type="string" MaxLength="2147483647" />
+          <Field Name="RowVersion" Type="long" IsReadOnly="true" Precision="19" />
+        </Fields>
+      </EntityDefinition>
+      <EntityDefinition Name="SubscriptionData1" GroupName="Sender" ObjectID="0b5d211c-78f8-4801-b2c0-3f5387c9bb8c">
+        <Fields>
+          <Field Name="Endpoint" Type="string" IsOptional="true" MaxLength="200" />
+          <Field Name="MessageType" Type="string" MaxLength="200" IsPrimaryKey="true" />
+          <Field Name="PersistenceVersion" Type="string" MaxLength="23" />
+          <Field Name="Subscriber" Type="string" MaxLength="200" IsPrimaryKey="true" />
+        </Fields>
+      </EntityDefinition>
+    </EntityDefinitions>
+    <Relationships />
+    <InheritanceHierarchies />
+  </EntityModel>
+  <TargetDatabases>
+    <TargetDatabase Type="2D18D138-1DD2-467E-86CC-4838250611AE" SyncSource="2">
+      <ConnectionElements>
+        <ConnectionElement Name="ServerName" Value="(localdb)\MSSQLLocalDB" />
+        <ConnectionElement Name="CatalogName" Value="master" />
+        <ConnectionElement Name="UseWindowsAuthentication" Value="true" />
+        <ConnectionElement Name="UserID" Value="" />
+        <ConnectionElement Name="Password" Value="" />
+      </ConnectionElements>
+      <SystemSequences>
+        <Sequence Name="SCOPE_IDENTITY()" />
+        <Sequence Name="@@IDENTITY" />
+      </SystemSequences>
+      <Catalogs>
+        <Catalog Name="NsbSamplesSqlOutbox">
+          <Schemas>
+            <Schema Name="dbo" SyncSource="2" LastSyncWithDatabase="2019-06-29T04:19:16.0866713Z">
+              <Tables>
+                <Table Name="error">
+                  <Fields>
+                    <Field Name="Id" Ordinal="1" DbType="25" />
+                    <Field Name="CorrelationId" Ordinal="2" IsOptional="true" DbType="24" Length="255" />
+                    <Field Name="ReplyToAddress" Ordinal="3" IsOptional="true" DbType="24" Length="255" />
+                    <Field Name="Recoverable" Ordinal="4" DbType="2" />
+                    <Field Name="Expires" Ordinal="5" IsOptional="true" DbType="4" />
+                    <Field Name="Headers" Ordinal="6" DbType="12" Length="2147483647" />
+                    <Field Name="Body" Ordinal="7" IsOptional="true" DbType="23" Length="2147483647" />
+                    <Field Name="RowVersion" Ordinal="8" IsIdentity="true" DbType="0" Precision="19" />
+                  </Fields>
+                </Table>
+              </Tables>
+            </Schema>
+            <Schema Name="receiver" SyncSource="2" LastSyncWithDatabase="2019-06-29T04:19:16.1306494Z">
+              <Tables>
+                <Table Name="OutboxData">
+                  <PkConstraintName Name="PK__OutboxDa__C87C0C9DDF129B87" />
+                  <Fields>
+                    <Field Name="MessageId" Ordinal="1" IsPrimaryKey="true" DbType="12" Length="200" />
+                    <Field Name="Dispatched" Ordinal="2" HasDefaultValue="true" DefaultValue="(0)" DbType="2" />
+                    <Field Name="DispatchedAt" Ordinal="3" IsOptional="true" DbType="4" />
+                    <Field Name="PersistenceVersion" Ordinal="4" DbType="24" Length="23" />
+                    <Field Name="Operations" Ordinal="5" DbType="12" Length="2147483647" />
+                  </Fields>
+                </Table>
+                <Table Name="Samples.SqlOutbox.Receiver">
+                  <Fields>
+                    <Field Name="Id" Ordinal="1" DbType="25" />
+                    <Field Name="CorrelationId" Ordinal="2" IsOptional="true" DbType="24" Length="255" />
+                    <Field Name="ReplyToAddress" Ordinal="3" IsOptional="true" DbType="24" Length="255" />
+                    <Field Name="Recoverable" Ordinal="4" DbType="2" />
+                    <Field Name="Expires" Ordinal="5" IsOptional="true" DbType="4" />
+                    <Field Name="Headers" Ordinal="6" DbType="12" Length="2147483647" />
+                    <Field Name="Body" Ordinal="7" IsOptional="true" DbType="23" Length="2147483647" />
+                    <Field Name="RowVersion" Ordinal="8" IsIdentity="true" DbType="0" Precision="19" />
+                  </Fields>
+                </Table>
+                <Table Name="Samples.SqlOutbox.Receiver.Delayed">
+                  <Fields>
+                    <Field Name="Headers" Ordinal="1" DbType="12" Length="2147483647" />
+                    <Field Name="Body" Ordinal="2" IsOptional="true" DbType="23" Length="2147483647" />
+                    <Field Name="Due" Ordinal="3" DbType="4" />
+                    <Field Name="RowVersion" Ordinal="4" IsIdentity="true" DbType="0" Precision="19" />
+                  </Fields>
+                </Table>
+                <Table Name="SubmittedOrder">
+                  <PkConstraintName Name="PK__Submitte__3214EC070A160134" />
+                  <Fields>
+                    <Field Name="Id" Ordinal="1" IsPrimaryKey="true" DbType="25" />
+                    <Field Name="Value" Ordinal="2" DbType="8" Precision="10" />
+                  </Fields>
+                </Table>
+                <Table Name="SubscriptionData">
+                  <PkConstraintName Name="PK__Subscrip__A745BB0A259C11C0" />
+                  <Fields>
+                    <Field Name="Subscriber" Ordinal="1" IsPrimaryKey="true" DbType="12" Length="200" />
+                    <Field Name="Endpoint" Ordinal="2" IsOptional="true" DbType="12" Length="200" />
+                    <Field Name="MessageType" Ordinal="3" IsPrimaryKey="true" DbType="12" Length="200" />
+                    <Field Name="PersistenceVersion" Ordinal="4" DbType="24" Length="23" />
+                  </Fields>
+                </Table>
+              </Tables>
+            </Schema>
+            <Schema Name="sender" SyncSource="2" LastSyncWithDatabase="2019-06-29T04:19:16.1786414Z">
+              <Tables>
+                <Table Name="OutboxData">
+                  <PkConstraintName Name="PK__OutboxDa__C87C0C9DCD9EC7F4" />
+                  <Fields>
+                    <Field Name="MessageId" Ordinal="1" IsPrimaryKey="true" DbType="12" Length="200" />
+                    <Field Name="Dispatched" Ordinal="2" HasDefaultValue="true" DefaultValue="(0)" DbType="2" />
+                    <Field Name="DispatchedAt" Ordinal="3" IsOptional="true" DbType="4" />
+                    <Field Name="PersistenceVersion" Ordinal="4" DbType="24" Length="23" />
+                    <Field Name="Operations" Ordinal="5" DbType="12" Length="2147483647" />
+                  </Fields>
+                </Table>
+                <Table Name="Samples.SqlOutbox.Sender">
+                  <Fields>
+                    <Field Name="Id" Ordinal="1" DbType="25" />
+                    <Field Name="CorrelationId" Ordinal="2" IsOptional="true" DbType="24" Length="255" />
+                    <Field Name="ReplyToAddress" Ordinal="3" IsOptional="true" DbType="24" Length="255" />
+                    <Field Name="Recoverable" Ordinal="4" DbType="2" />
+                    <Field Name="Expires" Ordinal="5" IsOptional="true" DbType="4" />
+                    <Field Name="Headers" Ordinal="6" DbType="12" Length="2147483647" />
+                    <Field Name="Body" Ordinal="7" IsOptional="true" DbType="23" Length="2147483647" />
+                    <Field Name="RowVersion" Ordinal="8" IsIdentity="true" DbType="0" Precision="19" />
+                  </Fields>
+                </Table>
+                <Table Name="Samples.SqlOutbox.Sender.Delayed">
+                  <Fields>
+                    <Field Name="Headers" Ordinal="1" DbType="12" Length="2147483647" />
+                    <Field Name="Body" Ordinal="2" IsOptional="true" DbType="23" Length="2147483647" />
+                    <Field Name="Due" Ordinal="3" DbType="4" />
+                    <Field Name="RowVersion" Ordinal="4" IsIdentity="true" DbType="0" Precision="19" />
+                  </Fields>
+                </Table>
+                <Table Name="SubscriptionData">
+                  <PkConstraintName Name="PK__Subscrip__A745BB0A34A7D477" />
+                  <Fields>
+                    <Field Name="Subscriber" Ordinal="1" IsPrimaryKey="true" DbType="12" Length="200" />
+                    <Field Name="Endpoint" Ordinal="2" IsOptional="true" DbType="12" Length="200" />
+                    <Field Name="MessageType" Ordinal="3" IsPrimaryKey="true" DbType="12" Length="200" />
+                    <Field Name="PersistenceVersion" Ordinal="4" DbType="24" Length="23" />
+                  </Fields>
+                </Table>
+              </Tables>
+            </Schema>
+          </Schemas>
+        </Catalog>
+      </Catalogs>
+    </TargetDatabase>
+  </TargetDatabases>
+  <MappingStores>
+    <MappingStore Type="2D18D138-1DD2-467E-86CC-4838250611AE">
+      <EntityMappings>
+        <EntityMapping EntityName=":Error" TargetName="NsbSamplesSqlOutbox:dbo:error">
+          <FieldMappings>
+            <FieldMapping FieldName="Body" TargetFieldName="Body" />
+            <FieldMapping FieldName="CorrelationId" TargetFieldName="CorrelationId" />
+            <FieldMapping FieldName="Expires" TargetFieldName="Expires" />
+            <FieldMapping FieldName="Headers" TargetFieldName="Headers" />
+            <FieldMapping FieldName="Id" TargetFieldName="Id" />
+            <FieldMapping FieldName="Recoverable" TargetFieldName="Recoverable" />
+            <FieldMapping FieldName="ReplyToAddress" TargetFieldName="ReplyToAddress" />
+            <FieldMapping FieldName="RowVersion" TargetFieldName="RowVersion" SequenceToUse="SCOPE_IDENTITY()" />
+          </FieldMappings>
+        </EntityMapping>
+        <EntityMapping EntityName="Receiver:OutboxData" TargetName="NsbSamplesSqlOutbox:receiver:OutboxData">
+          <FieldMappings>
+            <FieldMapping FieldName="Dispatched" TargetFieldName="Dispatched" />
+            <FieldMapping FieldName="DispatchedAt" TargetFieldName="DispatchedAt" />
+            <FieldMapping FieldName="MessageId" TargetFieldName="MessageId" />
+            <FieldMapping FieldName="Operations" TargetFieldName="Operations" />
+            <FieldMapping FieldName="PersistenceVersion" TargetFieldName="PersistenceVersion" />
+          </FieldMappings>
+        </EntityMapping>
+        <EntityMapping EntityName="Receiver:SamplesSqlOutboxReceiver" TargetName="NsbSamplesSqlOutbox:receiver:Samples.SqlOutbox.Receiver">
+          <FieldMappings>
+            <FieldMapping FieldName="Body" TargetFieldName="Body" />
+            <FieldMapping FieldName="CorrelationId" TargetFieldName="CorrelationId" />
+            <FieldMapping FieldName="Expires" TargetFieldName="Expires" />
+            <FieldMapping FieldName="Headers" TargetFieldName="Headers" />
+            <FieldMapping FieldName="Id" TargetFieldName="Id" />
+            <FieldMapping FieldName="Recoverable" TargetFieldName="Recoverable" />
+            <FieldMapping FieldName="ReplyToAddress" TargetFieldName="ReplyToAddress" />
+            <FieldMapping FieldName="RowVersion" TargetFieldName="RowVersion" SequenceToUse="SCOPE_IDENTITY()" />
+          </FieldMappings>
+        </EntityMapping>
+        <EntityMapping EntityName="Receiver:SamplesSqlOutboxReceiverDelayed" TargetName="NsbSamplesSqlOutbox:receiver:Samples.SqlOutbox.Receiver.Delayed">
+          <FieldMappings>
+            <FieldMapping FieldName="Body" TargetFieldName="Body" />
+            <FieldMapping FieldName="Due" TargetFieldName="Due" />
+            <FieldMapping FieldName="Headers" TargetFieldName="Headers" />
+            <FieldMapping FieldName="RowVersion" TargetFieldName="RowVersion" SequenceToUse="SCOPE_IDENTITY()" />
+          </FieldMappings>
+        </EntityMapping>
+        <EntityMapping EntityName="Receiver:SubmittedOrder" TargetName="NsbSamplesSqlOutbox:receiver:SubmittedOrder">
+          <FieldMappings>
+            <FieldMapping FieldName="Id" TargetFieldName="Id" />
+            <FieldMapping FieldName="Value" TargetFieldName="Value" />
+          </FieldMappings>
+        </EntityMapping>
+        <EntityMapping EntityName="Receiver:SubscriptionData" TargetName="NsbSamplesSqlOutbox:receiver:SubscriptionData">
+          <FieldMappings>
+            <FieldMapping FieldName="Endpoint" TargetFieldName="Endpoint" />
+            <FieldMapping FieldName="MessageType" TargetFieldName="MessageType" />
+            <FieldMapping FieldName="PersistenceVersion" TargetFieldName="PersistenceVersion" />
+            <FieldMapping FieldName="Subscriber" TargetFieldName="Subscriber" />
+          </FieldMappings>
+        </EntityMapping>
+        <EntityMapping EntityName="Sender:OutboxData1" TargetName="NsbSamplesSqlOutbox:sender:OutboxData">
+          <FieldMappings>
+            <FieldMapping FieldName="Dispatched" TargetFieldName="Dispatched" />
+            <FieldMapping FieldName="DispatchedAt" TargetFieldName="DispatchedAt" />
+            <FieldMapping FieldName="MessageId" TargetFieldName="MessageId" />
+            <FieldMapping FieldName="Operations" TargetFieldName="Operations" />
+            <FieldMapping FieldName="PersistenceVersion" TargetFieldName="PersistenceVersion" />
+          </FieldMappings>
+        </EntityMapping>
+        <EntityMapping EntityName="Sender:SamplesSqlOutboxSender" TargetName="NsbSamplesSqlOutbox:sender:Samples.SqlOutbox.Sender">
+          <FieldMappings>
+            <FieldMapping FieldName="Body" TargetFieldName="Body" />
+            <FieldMapping FieldName="CorrelationId" TargetFieldName="CorrelationId" />
+            <FieldMapping FieldName="Expires" TargetFieldName="Expires" />
+            <FieldMapping FieldName="Headers" TargetFieldName="Headers" />
+            <FieldMapping FieldName="Id" TargetFieldName="Id" />
+            <FieldMapping FieldName="Recoverable" TargetFieldName="Recoverable" />
+            <FieldMapping FieldName="ReplyToAddress" TargetFieldName="ReplyToAddress" />
+            <FieldMapping FieldName="RowVersion" TargetFieldName="RowVersion" SequenceToUse="SCOPE_IDENTITY()" />
+          </FieldMappings>
+        </EntityMapping>
+        <EntityMapping EntityName="Sender:SamplesSqlOutboxSenderDelayed" TargetName="NsbSamplesSqlOutbox:sender:Samples.SqlOutbox.Sender.Delayed">
+          <FieldMappings>
+            <FieldMapping FieldName="Body" TargetFieldName="Body" />
+            <FieldMapping FieldName="Due" TargetFieldName="Due" />
+            <FieldMapping FieldName="Headers" TargetFieldName="Headers" />
+            <FieldMapping FieldName="RowVersion" TargetFieldName="RowVersion" SequenceToUse="SCOPE_IDENTITY()" />
+          </FieldMappings>
+        </EntityMapping>
+        <EntityMapping EntityName="Sender:SubscriptionData1" TargetName="NsbSamplesSqlOutbox:sender:SubscriptionData">
+          <FieldMappings>
+            <FieldMapping FieldName="Endpoint" TargetFieldName="Endpoint" />
+            <FieldMapping FieldName="MessageType" TargetFieldName="MessageType" />
+            <FieldMapping FieldName="PersistenceVersion" TargetFieldName="PersistenceVersion" />
+            <FieldMapping FieldName="Subscriber" TargetFieldName="Subscriber" />
+          </FieldMappings>
+        </EntityMapping>
+      </EntityMappings>
+      <TypedViewMappings />
+      <SPCallMappings />
+      <TvfCallMappings />
+      <TypeConversionDefinitions />
+    </MappingStore>
+  </MappingStores>
+  <ModelViews />
+</Project>
